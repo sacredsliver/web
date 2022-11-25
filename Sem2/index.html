@@ -1,0 +1,84 @@
+<html>
+<header>
+    <title>Моя страница</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto,wght@1,100&display=swap');
+
+        html {
+            background-color: aqua;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        h1 {
+            background: blueviolet;
+            border-radius: 10px;
+        }
+
+        h1:hover {
+            background: red;
+        }
+
+        p {
+            border-color: #e3e3e3;
+            border-width: 20px;
+            border-style: groove;
+        }
+
+        img {
+            width: 200;
+            height: 200;
+        }
+        .radiation {
+            width: 0; height: 0;
+            border: 60px solid;
+            border-radius: 50%;
+            border-top-color: black;
+            border-bottom-color: black;
+            border-left-color: yellow;
+            border-right-color: yellow;
+        }
+        .hr-line {
+            margin: 20px 0;
+            padding: 0;
+            height: 0;
+            border: none;
+            border-top: 2px solid #ddd;
+            border-bottom: 2px solid #000;
+        }
+        .ol-flex {
+            display: flex;
+            justify-content: space-evenly
+        }
+        .arrow {
+            width: 300; height: 0;
+            border: 100px solid;
+            border-top-color: red;
+            border-right-color: green;
+            border-bottom-color: blue;
+            border-left-color: yellow;
+        }
+       </style>
+</header>
+
+<body>
+    <h1>Всем привет</h1>
+    <h2 class="arrow">Немного обо мне</h2>
+    <p>Здесь я буду расказывать о своих <i>достижениях</i> <br>
+        в области изучения <strong>HTML</strong> и <strong>CSS</strong>.</p>
+    <p>Сложно ли учить <strong>HTML</strong>? Возможно. <br>
+        Но если приложить некоторые усилия, то <strong><i>ничего <br> сложного нет</i></strong></p>
+    <p> <a href="https://ya.ru/">Спроси у Яндекса</a></p>
+    <p class="radiation"></p>
+    <img src="https://i.ebayimg.com/00/s/OTQ0WDgwMA==/z/OIsAAOSw57xaefcv/$_57.JPG?set_id=880000500F" alt="Часы">
+    <hr class="hr-line">
+    <ol class="ol-flex">
+        <li><a href="" id="button2" class="buttonText">Передние</a></li>
+        <li><a href="" id="button1" class="buttonText">Задние</a></li>
+        <li><a href="" id="button1" class="buttonText">левые</a> </li>
+        <li><a href="" id="button1" class="buttonText">правые</a></li>
+        <li><a href="" id="button1" class="buttonText">серединные</a></li>
+    </ol>
+
+</body>
+
+</html>
